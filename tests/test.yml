@@ -1,0 +1,5 @@
+---
+- hosts: NSC-TESTWIN10
+  remote_user: root
+  roles:
+    - win_pnpdevice
